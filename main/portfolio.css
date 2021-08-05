@@ -62,19 +62,18 @@ nav li.on a:after {width:100%;}
 }
 
 .pf01 figure {position:relative;}
-.pf01 figure img {width:100%;position:absolute;top:0;left:0;}
 
-.pf01 video {transform:scale(0);}
-.pf01.on video {transform:scale(1);transition:1s 0.5s;}
+.pf01 figure iframe {position:absolute;left:50px;top:36px;}
+
 
 .pf02 {background:#f2f2f2 url(bg.png);}
-.pf02 figure {order:2;background-image:url(mockup.png);background-size:100% 100%;padding:30px;}
 .pf02 video {transform:scale(0.6);}
 
 @media (max-width:768px) {
+    .pf01 .txt {bottom:40px;}
     .pf02 {background:url(bg.png);}
 
-    .pf02 figure {order:-1;background-image:url(mockup.png);background-size:100% 100%;padding:30px;} 
+ 
 }
 
 .pf03 .pf_slider {width:1200px;margin:0 auto;z-index:999;}

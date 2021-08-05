@@ -35,19 +35,19 @@ $("#cover_nav .link a").on("click", function(){
 
 
 $(".pf01 .xi-pause").on("click", function(){
-    $(".p01_video").trigger("pause");
+    $(".pf01_video").trigger("pause");
 });
 
 $(".pf01 .xi-play").on("click", function(){
-    $(".p01_video").trigger("play");
+    $(".pf01_video").trigger("play");
 });
 
 $(".pf02 .xi-pause").on("click", function(){
-    $(".p02_video").trigger("pause");
+    $(".pf02_video").trigger("pause");
 });
 
 $(".pf02 .xi-play").on("click", function(){
-    $(".p02_video").trigger("play");
+    $(".pf02_video").trigger("play");
 });
 
 $(".pf_slider").slick({
@@ -70,6 +70,35 @@ $(".pf03 i.xi-arrow-right").on("click", function(){
     $(".pf_slider").slick("slickNext");
 });
 
+$(".xi-angle-left").on("click", function(){
+    $(".pt_slider").slick("slickPrev");
+});
+$(".xi-angle-right").on("click", function(){
+    $(".pt_slider").slick("slickNext");
+});
+$(".pf02 .xi-pause").on("click", function(){
+    $(".p02_video").trigger("pause");
+});
+
+$(".pf02 .xi-play").on("click", function(){
+    $(".p02_video").trigger("play");
+});
+
+
+    $(".xi-angle-left").on("click", function(){
+        $(".pt_slider").slick("slickPrev");
+    });
+    $(".xi-angle-right").on("click", function(){
+        $(".pt_slider").slick("slickNext");
+    });
+    $(".pf02 .xi-pause").on("click", function(){
+        $(".p02_video").trigger("pause");
+    });
+    
+    $(".pf02 .xi-play").on("click", function(){
+        $(".p02_video").trigger("play");
+    });
+    
 
 
 
