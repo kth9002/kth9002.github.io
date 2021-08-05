@@ -63,7 +63,7 @@ nav li.on a:after {width:100%;}
 
 .pf01 figure {position:relative;}
 
-.pf01 figure iframe {position:absolute;left:50px;top:36px;}
+.pf01 video {transform:scale(0.6);}
 
 
 .pf02 {background:#f2f2f2 url(bg.png);}
